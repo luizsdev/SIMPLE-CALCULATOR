@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container ">
+            <h1 class="texto">CALCULADORA</h1>
+
+
+            <div class="inp">
+            <input type="number"  name="num1"  id="numero1" class="inputs" placeholder="Primeiro Número">
+            <input type="number"  name="num2"  id="numero2" class="inputs" placeholder="Segundo Número">
+            </div>
+            
+            <div class="botoes">
+                <input  class="but" type="submit" onclick="somar()" value="SOMAR"></button>
+                <input  class="but" type="submit" onclick="subtrair()" value="SUBTRAIR"></button>
+                <input  class="but" type="submit" onclick="multiplicar()" value="MULTIPLICAR"></button>
+                <input  class="but" type="submit" onclick="dividir()" value="DIVIDIR"></button>
+                
+            </div>
+                <div class="parag">
+            <p id="prg"> </p>
+        </div>
+
+
+
+    </div>
+
+
+ <script src="script.js"> </script>   
+</body>
+</html>

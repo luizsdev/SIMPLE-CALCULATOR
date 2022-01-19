@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(182, 165, 165);
+}
+.container{
+    border: 2px solid rgb(236, 217, 220);
+    border-radius: 20px;
+    background-color:rgb(250, 108, 108);
+    max-width: 600px;
+    height:400px;
+    margin: auto;
+    margin-top: 150px;
+}
+.texto{
+    text-shadow: 1px 1px 2px white;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.inputs{
+    margin-top: 20px;
+    width: 50%;
+    box-sizing: border-box; 
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px ;
+   
+}
+.inp{
+    text-align: center;
+}
+.botoes{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0;
+}
+.parag{
+    margin-top: 35px;
+    text-align: center;
+}
+.but{
+    border-radius: 5px;
+}
